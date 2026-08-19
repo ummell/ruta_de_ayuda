@@ -2,217 +2,216 @@
 
 # 🆘 RutaDeAyuda
 
-**Plataforma centralizada de ayuda humanitaria para Colombia tras el terremoto del 10 de agosto de 2026.**
+**Plataforma centralizada de ayuda humanitaria para Colombia tras el terremoto del 10 de agosto de 2026**
 
-[![](https://img.shields.io/badge/License-MIT-red?style=flat-square&logo=opensouceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
-[![](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![](https://img.shields.io/badge/Supabase-45B0E5?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
-[![](https://img.shields.io/badge/Uso-Humanitario-green?style=flat-square&logo=hand-helping-heart&logoColor=white)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-14-1E40AF?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-1E40AF?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-0D9488?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Database-0D9488?logo=supabase&logoColor=white)](https://supabase.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-1E40AF?logo=postgresql&logoColor=white)](https://postgresql.org/)
+[![Vitest](https://img.shields.io/badge/Vitest-Testing-0D9488?logo=vitest&logoColor=white)](https://vitest.dev/)
+[![Playwright](https://img.shields.io/badge/Playwright-E2E-F59E0B?logo=playwright&logoColor=white)](https://playwright.dev/)
+[![License](https://img.shields.io/badge/License-MIT-1E40AF?logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
+[![Purpose](https://img.shields.io/badge/Uso-Humanitario-F59E0B?logo=hand-helping-heart&logoColor=white)](#)
 
-</div>
-
----
-
-## 📋 Tabla de Contenidos
-
-- [Sobre el Proyecto](#sobre-el-proyecto)
-- [Módulos](#módulos)
-- [Stack Tecnológico](#stack-tecnológico)
-- [Inicio Rápido](#inicio-rápido)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Testing](#testing)
-- [Seguridad](#seguridad)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
-
----
-
-## Sobre el Proyecto
-
-**RutaDeAyuda** es una plataforma desarrollada para centralizar y facilitar la ayuda humanitaria en Colombia tras el terremoto del **10 de agosto de 2026** (Magnitud 7.4, San José del Palmar, Chocó).
-
-Esta herramienta permite:
-
-- 🔍 **Buscar y registrar** personas afectadas
-- 📍 **Ubicar centros de acopio** y albergues cercanos
-- ✅ **Verificar información** antes de compartirla
-- 📊 **Acceder a datos sismológicos** en tiempo real
-- 🆘 **Contactar servicios de emergencia** oficiales
-
----
-
-## Módulos
-
-### Personas Desaparecidas
-**Registro y búsqueda de personas afectadas por el terremoto**
-
-- Sistema de registro con datos personales y foto
-- Búsqueda por nombre, ubicación y estado
-- Notificación a familiares
-
-### Centros de Acopio
-**Ubicación de centros de ayuda y recolección de suministros**
-
-- Mapa interactivo con ubicaciones
-- Información de necesidades actuales
-- Contacto directo con coordinadores
-
-### Albergues / Refugios
-**Hospedaje temporal para afectados**
-
-- Badges de disponibilidad: Verde (disponible), Amarillo (limitado), Azul (completo)
-- Capacidad y servicios disponibles
-- Registro de residentes
-
-### Centro de Verificación
-**Verificar información antes de compartirla**
-
-- Validación de datos antes de publicación
-- Prevención de desinformación
-- Fuentes oficiales verificadas
-
-### Datos USGS
-**Información sismológica en tiempo real**
-
-- Datos del Servicio Geológico de EE.UU.
--实时 sismogramas y réplicas
-- Información de seguridad
-
-### Emergencia
-**Teléfonos y recursos oficiales de emergencia**
-
-- Directorio de servicios de emergencia
-- Procedimientos de seguridad
-- Enlaces a fuentes oficiales
-
----
-
-## Stack Tecnológico
-
-<div align="center">
-
-| Frontend | Backend | Database | Testing |
-|:---:|:---:|:---:|:---:|
-| ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-45B0E5?style=for-the-badge&logo=supabase&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql&logoColor=white) | ![Vitest](https://img.shields.io/badge/Vitest-1.6-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) |
-| ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Zod](https://img.shields.io/badge/Zod-3.23-3E68FF?style=for-the-badge&logo=zod&logoColor=white) | | ![Playwright](https://img.shields.io/badge/Playwright-1.45-45DAFF?style=for-the-badge&logo=playwright&logoColor=white) |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | | | |
-| ![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white) | | | |
-| ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet&logoColor=white) | | | |
+Sistema de gestión de personas afectadas, centros de acopio, albergues y verificación de información para la emergencia por el terremoto del 10 de agosto de 2026 (Magnitud 7.4, San José del Palmar, Chocó).
 
 </div>
 
 ---
 
-## Inicio Rápido
+## Pitch y propuesta de valor
 
-### Requisitos Previos
+**RutaDeAyuda** es una plataforma multiplataforma diseñada para centralizar y facilitar la ayuda humanitaria en Colombia tras el terremoto del **10 de agosto de 2026**.
 
-- **Node.js** 20+
-- **npm** o **pnpm**
-- **Cuenta de Supabase** (gratuita en [supabase.com](https://supabase.com))
+El sistema permite a afectados y familiares consultar la disponibilidad de albergues en tiempo real, localizar centros de acopio cercanos, registrar personas desaparecidas, verificar información antes de compartirla y acceder a datos sismológicos oficiales. Los voluntarios y coordinadores cuentan con herramientas para gestionar recursos, actualizar estados y coordinar la ayuda de manera eficiente.
 
-### Instalación
+Transforma la respuesta a emergencias reemplazando procesos manuales y fragmentados por procedimientos automatizados que mejoran la organización, reducen la desinformación y aumentan la eficiencia en la entrega de ayuda a quienes más la necesitan.
+
+---
+
+## Paleta de diseño
+
+| Token | Hex | Uso |
+|-------|-----|-----|
+| **Nexora Blue** (Primary) | `#1E40AF` | Identidad, headings, badges principales, CTAs primarios |
+| **Tecno Teal** (Primary) | `#0D9488` | Componentes secundarios, badges de stack tecnológico |
+| **Smart Amber** (Accent) | `#F59E0B` | Acentos, alertas, badges de emergencia |
+| **Cloud Gray** (Background) | `#F3F4F6` | Fondos, secciones, contrastes suaves |
+| **Slate Gray** (Text) | `#6B7280` | Texto secundario, metadata, descripciones |
+| **Alert Red** (Emergency) | `#DC2626` | Estados críticos, emergencias |
+| **Success Green** (Available) | `#16A34A` | Disponible, verificado |
+| **Warning Yellow** (Limited) | `#CA8A04` | Limitado, precaución |
+
+---
+
+## Arquitectura del sistema
+
+```mermaid
+graph TD;
+    A["Ciudadano / Afectado"] -->|"HTTPS"| B("Frontend: Next.js 14 App Router")
+    B -->|"Server Actions / Route Handlers"| C("Supabase Edge Functions: Deno")
+    B -->|"RLS + Policies"| D[("PostgreSQL 15")]
+    B -->|"Auth + Sessions"| E[("Supabase Auth")]
+    C -->|"Validación datos"| D
+    C -->|"Envío de notificaciones"| D
+    C -->|"Verificación USGS"| F["USGS Earthquake API"]
+    C -->|"Recursos oficiales"| G["Defensa Civil / Cruz Roja"]
+    E -->|"JWT + Cookies HTTP-only"| B
+    D -->|"Audit Logging"| H["Registro de auditoría"]
+```
+
+### Capas de la solución
+
+| Capa | Tecnología | Responsabilidad |
+|------|-----------|-----------------|
+| Presentación | Next.js 14 (App Router) + Tailwind + shadcn/ui | UI responsiva, mapas interactivos, modo offline consulta |
+| Validación cliente | Zod + React Hook Form | Validación de formularios antes de enviar |
+| API - Lógica transaccional | Supabase Edge Functions (Deno) | Personas, centros, albergues, verificación |
+| Datos | PostgreSQL 15 (Supabase) | Esquema, RLS, constraints, vistas |
+| Autorización | RLS policies | Control de acceso por rol en base de datos |
+| Autenticación | Supabase Auth | JWT, sesiones, recuperación de contraseña |
+| Maps | Leaflet + OpenStreetMap | Ubicaciones geográficas |
+| Testing | Vitest + Playwright | Unit/integration + E2E |
+
+---
+
+## Stack tecnológico
+
+### Frontend
+
+- **Framework:** Next.js 14.2+ (App Router, Server Components, Streaming)
+- **Lenguaje:** TypeScript 5.5 (`strict: true`)
+- **Estilos:** Tailwind CSS 3.4 + shadcn/ui (componentes Radix)
+- **Mapas:** Leaflet + OpenStreetMap
+- **Iconografía:** `lucide-react` (sin emojis, SVG)
+
+### Backend
+
+- **Base de datos:** PostgreSQL 15 (Supabase) con RLS habilitado
+- **Auth:** Supabase Auth (JWT + HTTP-only cookies)
+- **Funciones serverless:** Supabase Edge Functions (Deno)
+- **Validación:** Zod (esquemas compartidos cliente/servidor)
+- **Email:** Resend (notificaciones)
+- **Datos sismológicos:** USGS Earthquake API
+
+### Testing y calidad
+
+- **Unit/Integration:** Vitest + `@vitest/coverage-v8`
+- **E2E:** Playwright (chromium, firefox, webkit)
+
+---
+
+## Módulos funcionales
+
+| # | Módulo | Descripción | Funcionalidades |
+|---|--------|-------------|-----------------|
+| M1 | Personas Desaparecidas | Registro y búsqueda de afectados | Registro con foto, búsqueda por nombre/ubicación, estado de búsqueda |
+| M2 | Centros de Acopio | Ubicación de centros de ayuda | Mapa interactivo, necesidades actuales, contacto directo |
+| M3 | Albergues / Refugios | Hospedaje temporal para afectados | Badges disponibilidad (Verde/Amarillo/Azul), capacidad, registro |
+| M4 | Centro de Verificación | Validación de información | Verificación antes de publicar, prevención desinformación |
+| M5 | Datos USGS | Información sismológica en tiempo real | Sismogramas, réplicas, información de seguridad |
+| M6 | Emergencia | Servicios de emergencia | Directorio telefónico, procedimientos, enlaces oficiales |
+
+---
+
+## Estructura del repositorio
+
+```
+rutadeayuda/
+|
++- src/
+|   +- app/                      # Next.js 14 (App Router)
+|       +- (auth)/               # Autenticación
+|       +- personas/             # Módulo personas desaparecidas
+|       +- centros/              # Módulo centros de acopio
+|       +- albergues/           # Módulo albergues
+|       +- verificar/            # Centro de verificación
+|       +- info/                 # Información general
+|       +- api/                  # API Routes
+|   +- components/
+|       +- ui/                   # shadcn/ui components
+|       +- layout/               # Header, footer, layouts
+|   +- lib/
+|       +- supabase/             # client.ts, server.ts, middleware.ts
+|       +- security/             # rate-limit, validation, audit-log
+|       +- email/                # Email sending
+|       +- utils.ts              # Helpers
+|   +- types/                    # TypeScript types
+|
++- supabase/
+|   +- migrations/               # SQL migrations
+|   +- functions/               # Edge Functions Deno
+|
++- docs/
+|   +- ARCHITECTURE.md          # Diagramas y arquitectura
+|   +- SECURITY.md              # Políticas de seguridad
+|   +- OWASP-TOP10.md           # Checklist OWASP
+|   +- CLAUDE.md                # Convenciones del proyecto
+|
++- public/                      # Assets estáticos
+```
+
+---
+
+## Inicio rápido (desarrollo)
+
+### Requisitos previos
+
+| Herramienta | Versión | Instalación |
+|-------------|---------|-------------|
+| Node.js | >=20 | [nodejs.org](https://nodejs.org) |
+| npm o pnpm | latest | Ya incluido con Node.js |
+| Cuenta de Supabase | - | [supabase.com](https://supabase.com) |
+
+### Configuración
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/your-username/rutadeayuda.git
+# 1) Clonar el repositorio
+git clone https://github.com/ummell/ruta_de_ayuda.git
 cd rutadeayuda
 
-# 2. Instalar dependencias
+# 2) Variables de entorno
+cp .env.example .env.local
+# Editar .env.local con tus credenciales de Supabase
+
+# 3) Instalar dependencias
 npm install
 # o si usas pnpm
 pnpm install
 
-# 3. Configurar variables de entorno
-cp .env.example .env.local
-# Editar .env.local con tus credenciales de Supabase
-
-# 4. Generar tipos de base de datos
+# 4) Generar tipos de base de datos
 npm run db:generate
 
-# 5. Ejecutar migraciones
-npm run db-push
+# 5) Ejecutar migraciones
+npm run db:push
 
-# 6. (Opcional) Poblar base de datos
+# 6) (Opcional) Poblar base de datos
 npm run db:seed
 
-# 7. Iniciar servidor de desarrollo
+# 7) Iniciar servidor de desarrollo
 npm run dev
+
+# 8) Abrir en el navegador
+open http://localhost:3000
 ```
 
-> La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
+### Scripts disponibles
 
-### Variables de Entorno Requeridas
-
-```env
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-
-# Opcional
-NEXT_PUBLIC_USGS_API_URL=https://earthquake.usgs.gov/fdsnws/event/1
-```
-
----
-
-## Estructura del Proyecto
-
-```
-rutadeayuda/
-├── src/
-│   ├── app/                    # Next.js App Router
-│   │   ├── api/               # API Routes
-│   │   ├── personas/          # Módulo personas desaparecidas
-│   │   ├── centros/           # Módulo centros de acopio
-│   │   ├── albergues/         # Módulo albergues
-│   │   ├── verificar/         # Centro de verificación
-│   │   └── info/              # Información general
-│   ├── components/
-│   │   ├── ui/                # Componentes UI reutilizables
-│   │   └── layout/            # Layout general (header, footer)
-│   ├── lib/
-│   │   ├── security/          # Seguridad (rate-limit, validation)
-│   │   └── email/            # Envío de emails
-│   └── types/                 # Tipos TypeScript
-├── docs/                      # Documentación
-├── supabase/                  # Migraciones de BD
-├── scripts/                   # Scripts de utilidad
-└── public/                    # Assets estáticos
-```
-
-### Rutas Principales
-
-```
-/                    → Página de inicio
-/personas            → Listado de personas desaparecidas
-/personas/nuevo      → Registrar nueva persona
-/centros             → Listado de centros de acopio
-/centros/nuevo       → Registrar nuevo centro
-/albergues           → Listado de albergues
-/albergues/nuevo     → Registrar nuevo albergue
-/verificar           → Centro de verificación
-/info                → Información y recursos
-```
-
----
-
-## Testing
-
-```bash
-# Tests unitarios
-npm test
-
-# Tests con cobertura
-npm run test:coverage
-
-# Tests E2E
-npm run test:e2e
-
-# Tests E2E con UI visual
-npm run test:e2e:ui
-```
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | Inicia el servidor de desarrollo (puerto 3000) |
+| `npm run build` | Build de producción Next.js |
+| `npm run start` | Serve del build de producción |
+| `npm run lint` | ESLint |
+| `npm run typecheck` | `tsc --noEmit` |
+| `npm test` | Vitest (unit + integration) |
+| `npm run test:coverage` | Coverage V8 |
+| `npm run test:e2e` | Playwright E2E |
+| `npm run test:e2e:ui` | Playwright E2E con UI visual |
+| `npm run db:generate` | Genera tipos TypeScript de Supabase |
+| `npm run db:push` | Ejecuta migraciones |
+| `npm run db:seed` | Pobla base de datos |
 
 ---
 
@@ -220,53 +219,36 @@ npm run test:e2e:ui
 
 Este proyecto sigue las guías **OWASP Top 10** para garantizar la protección de datos sensibles.
 
-> Documentación: [SECURITY.md](./docs/SECURITY.md) · [OWASP-TOP10.md](./docs/OWASP-TOP10.md)
+### Medidas implementadas
 
-### Medidas Implementadas
+| Medida | Descripción |
+|--------|-------------|
+| Helmet.js | Headers de seguridad HTTP |
+| Zod | Validación y sanitización de inputs |
+| RLS | Row Level Security en PostgreSQL |
+| Rate Limiting | Limitación de solicitudes por IP |
+| Audit Logging | Registro de acciones sensibles |
+| CSP Headers | Content Security Policy |
 
-- ✅ **Helmet.js** — Headers de seguridad HTTP
-- ✅ **Zod** — Validación y sanitización de inputs
-- ✅ **RLS (Row Level Security)** — Seguridad a nivel de fila en PostgreSQL
-- ✅ **Rate Limiting** — Limitación de solicitudes por IP
-- ✅ **Audit Logging** — Registro de acciones sensibles
-- ✅ **CSP Headers** — Content Security Policy
-
----
-
-## Contribuir
-
-¡Toda ayuda es bienvenida! Este es un proyecto humanitario y cada contribución cuenta.
-
-```bash
-# 1. Fork el repositorio
-
-# 2. Crear una rama para tu feature
-git checkout -b feature/nueva-funcionalidad
-
-# 3. Realizar los cambios y commit
-git commit -m "feat: descripción de la funcionalidad"
-
-# 4. Push a tu rama
-git push origin feature/nueva-funcionalidad
-
-# 5. Abrir un Pull Request
-```
-
-> Lee [docs/CLAUDE.md](./docs/CLAUDE.md) para conocer las convenciones del proyecto.
+Documentación detallada en [`docs/SECURITY.md`](./docs/SECURITY.md) y [`docs/OWASP-TOP10.md`](./docs/OWASP-TOP10.md).
 
 ---
 
-## Licencia
+## Equipo
 
-Este proyecto es **MIT** y está destinado exclusivamente a **uso humanitario**.
+<div align="center">
 
-> **MIT License** — Uso exclusivamente humanitario. No se permite uso comercial sin autorización.
+**Equipo Voluntario Ciudadano**
+
+Desarrollo y mantenimiento
+
+</div>
 
 ---
 
 ## Créditos
 
-**Equipo Voluntario Ciudadano** — Desarrollo y mantenimiento.
+Este proyecto es **MIT** y está destinado exclusivamente a **uso humanitario**.
 
 Para más información, consulta la [documentación completa](./docs/).
 
@@ -274,17 +256,10 @@ Para más información, consulta la [documentación completa](./docs/).
 
 <div align="center">
 
-### 🤝 ¿Quieres ayudar?
-
-**RutaDeAyuda necesita contribuciones.** Cada línea de código, reporte de bug o idea ayuda a conectar a las personas con la ayuda que necesitan.
-
-[![](https://img.shields.io/badge/Repositorio-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/rutadeayuda)
-[![](https://img.shields.io/badge/Documentación-Docs-24292E?style=for-the-badge&logo=gitbook&logoColor=white)](./docs/)
-
----
-
-**Hecho con ❤️ para Colombia**
+**Desarrollado con ❤️ para Colombia**
 
 🆘 RutaDeAyuda — Uniendo fuerzas cuando más se necesita
+
+**Sistema desarrollado para la emergencia del terremoto — Agosto 2026**
 
 </div>

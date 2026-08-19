@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./public/logo_rutadeayuda.svg" alt="RutaDeAyuda Logo" width="200"/>
+
 # 🆘 RutaDeAyuda
 
 **Plataforma centralizada de ayuda humanitaria para Colombia tras el terremoto del 10 de agosto de 2026**

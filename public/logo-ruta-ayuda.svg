@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="200" height="250">
+  <!-- Yellow arc (top half) -->
+  <path d="M 200 80 A 100 100 0 0 1 300 180 L 300 145 A 100 100 0 0 0 200 45 Z" fill="#FCD34D"/>
+
+  <!-- Small red heart at top center -->
+  <path d="M 200 115
+           C 193 100, 173 100, 173 120
+           C 173 145, 200 165, 200 165
+           C 200 165, 227 145, 227 120
+           C 227 100, 207 100, 200 115 Z"
+        fill="#DC2626"/>
+
+  <!-- Left half of pin (blue) with white river -->
+  <path d="M 200 165
+           C 140 165, 100 205, 100 265
+           C 100 325, 200 435, 200 435
+           L 200 165 Z"
+        fill="#1E40AF"/>
+  <path d="M 200 215
+           C 175 235, 170 270, 185 305
+           C 190 320, 195 340, 200 360
+           L 200 215 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Right half of pin (red) with white river -->
+  <path d="M 200 165
+           C 260 165, 300 205, 300 265
+           C 300 325, 200 435, 200 435
+           L 200 165 Z"
+        fill="#DC2626"/>
+  <path d="M 200 215
+           C 225 235, 230 270, 215 305
+           C 210 320, 205 340, 200 360
+           L 200 215 Z"
+        fill="#FFFFFF"/>
+
+  <!-- Text: "ruta de ayuda" -->
+  <text x="50%" y="490"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="900"
+        font-size="48"
+        text-anchor="middle"
+        fill="#1E3A8A">ruta de <tspan fill="#DC2626">ayuda</tspan></text>
+</svg>

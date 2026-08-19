@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./public/logo_rutadeayuda.svg" alt="RutaDeAyuda Logo" width="200"/>
+<img src="./public/logo-ruta-ayuda.svg" alt="RutaDeAyuda Logo" width="180"/>
 
 # 🆘 RutaDeAyuda
 

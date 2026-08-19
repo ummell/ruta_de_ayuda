@@ -30,21 +30,6 @@ Transforma la respuesta a emergencias reemplazando procesos manuales y fragmenta
 
 ---
 
-## Paleta de diseño
-
-| Token | Hex | Uso |
-|-------|-----|-----|
-| **Nexora Blue** (Primary) | `#1E40AF` | Identidad, headings, badges principales, CTAs primarios |
-| **Tecno Teal** (Primary) | `#0D9488` | Componentes secundarios, badges de stack tecnológico |
-| **Smart Amber** (Accent) | `#F59E0B` | Acentos, alertas, badges de emergencia |
-| **Cloud Gray** (Background) | `#F3F4F6` | Fondos, secciones, contrastes suaves |
-| **Slate Gray** (Text) | `#6B7280` | Texto secundario, metadata, descripciones |
-| **Alert Red** (Emergency) | `#DC2626` | Estados críticos, emergencias |
-| **Success Green** (Available) | `#16A34A` | Disponible, verificado |
-| **Warning Yellow** (Limited) | `#CA8A04` | Limitado, precaución |
-
----
-
 ## Arquitectura del sistema
 
 ```mermaid
@@ -60,19 +45,6 @@ graph TD;
     E -->|"JWT + Cookies HTTP-only"| B
     D -->|"Audit Logging"| H["Registro de auditoría"]
 ```
-
-### Capas de la solución
-
-| Capa | Tecnología | Responsabilidad |
-|------|-----------|-----------------|
-| Presentación | Next.js 14 (App Router) + Tailwind + shadcn/ui | UI responsiva, mapas interactivos, modo offline consulta |
-| Validación cliente | Zod + React Hook Form | Validación de formularios antes de enviar |
-| API - Lógica transaccional | Supabase Edge Functions (Deno) | Personas, centros, albergues, verificación |
-| Datos | PostgreSQL 15 (Supabase) | Esquema, RLS, constraints, vistas |
-| Autorización | RLS policies | Control de acceso por rol en base de datos |
-| Autenticación | Supabase Auth | JWT, sesiones, recuperación de contraseña |
-| Maps | Leaflet + OpenStreetMap | Ubicaciones geográficas |
-| Testing | Vitest + Playwright | Unit/integration + E2E |
 
 ---
 
@@ -151,67 +123,6 @@ rutadeayuda/
 |
 +- public/                      # Assets estáticos
 ```
-
----
-
-## Inicio rápido (desarrollo)
-
-### Requisitos previos
-
-| Herramienta | Versión | Instalación |
-|-------------|---------|-------------|
-| Node.js | >=20 | [nodejs.org](https://nodejs.org) |
-| npm o pnpm | latest | Ya incluido con Node.js |
-| Cuenta de Supabase | - | [supabase.com](https://supabase.com) |
-
-### Configuración
-
-```bash
-# 1) Clonar el repositorio
-git clone https://github.com/ummell/ruta_de_ayuda.git
-cd rutadeayuda
-
-# 2) Variables de entorno
-cp .env.example .env.local
-# Editar .env.local con tus credenciales de Supabase
-
-# 3) Instalar dependencias
-npm install
-# o si usas pnpm
-pnpm install
-
-# 4) Generar tipos de base de datos
-npm run db:generate
-
-# 5) Ejecutar migraciones
-npm run db:push
-
-# 6) (Opcional) Poblar base de datos
-npm run db:seed
-
-# 7) Iniciar servidor de desarrollo
-npm run dev
-
-# 8) Abrir en el navegador
-open http://localhost:3000
-```
-
-### Scripts disponibles
-
-| Comando | Descripción |
-|---------|-------------|
-| `npm run dev` | Inicia el servidor de desarrollo (puerto 3000) |
-| `npm run build` | Build de producción Next.js |
-| `npm run start` | Serve del build de producción |
-| `npm run lint` | ESLint |
-| `npm run typecheck` | `tsc --noEmit` |
-| `npm test` | Vitest (unit + integration) |
-| `npm run test:coverage` | Coverage V8 |
-| `npm run test:e2e` | Playwright E2E |
-| `npm run test:e2e:ui` | Playwright E2E con UI visual |
-| `npm run db:generate` | Genera tipos TypeScript de Supabase |
-| `npm run db:push` | Ejecuta migraciones |
-| `npm run db:seed` | Pobla base de datos |
 
 ---
 

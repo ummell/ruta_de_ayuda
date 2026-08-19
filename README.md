@@ -1,30 +1,34 @@
+<div align="center">
+
 # 🆘 RutaDeAyuda
 
-> Plataforma centralizada de ayuda humanitaria para Colombia tras el terremoto del 10 de agosto de 2026.
+**Plataforma centralizada de ayuda humanitaria para Colombia tras el terremoto del 10 de agosto de 2026.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-45B0E5?logo=supabase&logoColor=white)](https://supabase.com/)
-[![License](https://img.shields.io/badge/Purpose-Humanitarian- green?logo=hand-helping-heart&logoColor=white)](https://github.com/your-repo/rutadeayuda)
+[![](https://img.shields.io/badge/License-MIT-red?style=flat-square&logo=opensouceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
+[![](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![](https://img.shields.io/badge/TypeScript-5.5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![](https://img.shields.io/badge/Supabase-45B0E5?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+[![](https://img.shields.io/badge/Uso-Humanitario-green?style=flat-square&logo=hand-helping-heart&logoColor=white)](#)
+
+</div>
 
 ---
 
 ## 📋 Tabla de Contenidos
 
-- [🎯 Acerca del Proyecto](#-acerca-del-proyecto)
-- [📦 Módulos](#-módulos)
-- [🛠️ Stack Tecnológico](#️-stack-tecnológico)
-- [🚀 Inicio Rápido](#-inicio-rápido)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [🧪 Testing](#-testing)
-- [🔒 Seguridad](#-seguridad)
-- [🤝 Contribuir](#-contribuir)
-- [📄 Licencia](#-licencia)
+- [Sobre el Proyecto](#sobre-el-proyecto)
+- [Módulos](#módulos)
+- [Stack Tecnológico](#stack-tecnológico)
+- [Inicio Rápido](#inicio-rápido)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Testing](#testing)
+- [Seguridad](#seguridad)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
 
 ---
 
-## 🎯 Acerca del Proyecto
+## Sobre el Proyecto
 
 **RutaDeAyuda** es una plataforma desarrollada para centralizar y facilitar la ayuda humanitaria en Colombia tras el terremoto del **10 de agosto de 2026** (Magnitud 7.4, San José del Palmar, Chocó).
 
@@ -38,49 +42,69 @@ Esta herramienta permite:
 
 ---
 
-## 📦 Módulos
+## Módulos
 
-| Módulo | Descripción | Icono |
-|--------|-------------|-------|
-| **Personas Desaparecidas** | Registro y búsqueda de personas afectadas por el terremoto | 👥 |
-| **Centros de Acopio** | Ubicación de centros de ayuda y recolección de suministros | 📦 |
-| **Albergues / Refugios** | Hospedaje temporal para afectados (badges Verde/Amarillo/Azul) | 🏠 |
-| **Centro de Verificación** | Verificar información antes de compartirla | ✅ |
-| **Datos USGS** | Información sismológica en tiempo real | 🌎 |
-| **Emergencia** | Teléfonos y recursos oficiales de emergencia | 🆘 |
+### Personas Desaparecidas
+**Registro y búsqueda de personas afectadas por el terremoto**
+
+- Sistema de registro con datos personales y foto
+- Búsqueda por nombre, ubicación y estado
+- Notificación a familiares
+
+### Centros de Acopio
+**Ubicación de centros de ayuda y recolección de suministros**
+
+- Mapa interactivo con ubicaciones
+- Información de necesidades actuales
+- Contacto directo con coordinadores
+
+### Albergues / Refugios
+**Hospedaje temporal para afectados**
+
+- Badges de disponibilidad: Verde (disponible), Amarillo (limitado), Azul (completo)
+- Capacidad y servicios disponibles
+- Registro de residentes
+
+### Centro de Verificación
+**Verificar información antes de compartirla**
+
+- Validación de datos antes de publicación
+- Prevención de desinformación
+- Fuentes oficiales verificadas
+
+### Datos USGS
+**Información sismológica en tiempo real**
+
+- Datos del Servicio Geológico de EE.UU.
+-实时 sismogramas y réplicas
+- Información de seguridad
+
+### Emergencia
+**Teléfonos y recursos oficiales de emergencia**
+
+- Directorio de servicios de emergencia
+- Procedimientos de seguridad
+- Enlaces a fuentes oficiales
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
-### Frontend
+<div align="center">
 
-| Tecnología | Uso | Badge |
-|------------|-----|-------|
-| [Next.js 14](https://nextjs.org/) | Framework React con App Router | ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js) |
-| [React 18](https://react.dev/) | Librería UI | ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react) |
-| [TypeScript 5](https://www.typescriptlang.org/) | Tipado estático | ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?logo=typescript) |
-| [TailwindCSS](https://tailwindcss.com/) | Estilos utility-first | ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwindcss) |
-| [Leaflet](https://leafletjs.com/) | Mapas interactivos | ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?logo=leaflet) |
+| Frontend | Backend | Database | Testing |
+|:---:|:---:|:---:|:---:|
+| ![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-45B0E5?style=for-the-badge&logo=supabase&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql&logoColor=white) | ![Vitest](https://img.shields.io/badge/Vitest-1.6-6E9F18?style=for-the-badge&logo=vitest&logoColor=white) |
+| ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black) | ![Zod](https://img.shields.io/badge/Zod-3.23-3E68FF?style=for-the-badge&logo=zod&logoColor=white) | | ![Playwright](https://img.shields.io/badge/Playwright-1.45-45DAFF?style=for-the-badge&logo=playwright&logoColor=white) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white) | | | |
+| ![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white) | | | |
+| ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet&logoColor=white) | | | |
 
-### Backend & Database
-
-| Tecnología | Uso | Badge |
-|------------|-----|-------|
-| [Supabase](https://supabase.com/) | Backend completo (Postgres, Auth, Storage) | ![Supabase](https://img.shields.io/badge/Supabase-45B0E5?logo=supabase&logoColor=white) |
-| [PostgreSQL](https://www.postgresql.org/) | Base de datos relacional | ![Postgres](https://img.shields.io/badge/PostgreSQL-15-336791?logo=postgresql) |
-| [Zod](https://zod.dev/) | Validación de esquemas | ![Zod](https://img.shields.io/badge/Zod-3.23-3E68FF?logo=zod) |
-
-### Testing & Quality
-
-| Tecnología | Uso | Badge |
-|------------|-----|-------|
-| [Vitest](https://vitest.dev/) | Tests unitarios | ![Vitest](https://img.shields.io/badge/Vitest-1.6-6E9F18?logo=vitest) |
-| [Playwright](https://playwright.dev/) | Tests E2E | ![Playwright](https://img.shields.io/badge/Playwright-1.45-45DAFF?logo=playwright) |
+</div>
 
 ---
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 ### Requisitos Previos
 
@@ -117,7 +141,7 @@ npm run db:seed
 npm run dev
 ```
 
-La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
+> La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
 
 ### Variables de Entorno Requeridas
 
@@ -133,7 +157,7 @@ NEXT_PUBLIC_USGS_API_URL=https://earthquake.usgs.gov/fdsnws/event/1
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 rutadeayuda/
@@ -158,7 +182,7 @@ rutadeayuda/
 └── public/                    # Assets estáticos
 ```
 
-### Estructura de Página Principal
+### Rutas Principales
 
 ```
 /                    → Página de inicio
@@ -174,7 +198,7 @@ rutadeayuda/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Tests unitarios
@@ -192,13 +216,11 @@ npm run test:e2e:ui
 
 ---
 
-## 🔒 Seguridad
+## Seguridad
 
 Este proyecto sigue las guías **OWASP Top 10** para garantizar la protección de datos sensibles.
 
-📄 Documentación:
-- [SECURITY.md](./docs/SECURITY.md) — Políticas de seguridad
-- [OWASP-TOP10.md](./docs/OWASP-TOP10.md) — Checklist OWASP
+> Documentación: [SECURITY.md](./docs/SECURITY.md) · [OWASP-TOP10.md](./docs/OWASP-TOP10.md)
 
 ### Medidas Implementadas
 
@@ -211,7 +233,7 @@ Este proyecto sigue las guías **OWASP Top 10** para garantizar la protección d
 
 ---
 
-## 🤝 Contribuir
+## Contribuir
 
 ¡Toda ayuda es bienvenida! Este es un proyecto humanitario y cada contribución cuenta.
 
@@ -230,11 +252,11 @@ git push origin feature/nueva-funcionalidad
 # 5. Abrir un Pull Request
 ```
 
-Por favor, lee [docs/CLAUDE.md](./docs/CLAUDE.md) para conocer las convenciones del proyecto.
+> Lee [docs/CLAUDE.md](./docs/CLAUDE.md) para conocer las convenciones del proyecto.
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es **MIT** y está destinado exclusivamente a **uso humanitario**.
 
@@ -242,7 +264,7 @@ Este proyecto es **MIT** y está destinado exclusivamente a **uso humanitario**.
 
 ---
 
-## 🙏 Créditos
+## Créditos
 
 **Equipo Voluntario Ciudadano** — Desarrollo y mantenimiento.
 
@@ -250,8 +272,19 @@ Para más información, consulta la [documentación completa](./docs/).
 
 ---
 
-<p align="center">
-  <strong>Hecho con ❤️ para Colombia</strong>
-  <br>
-  🆘 RutaDeAyuda — Uniendo fuerzas cuando más se necesita
-</p>
+<div align="center">
+
+### 🤝 ¿Quieres ayudar?
+
+**RutaDeAyuda necesita contribuciones.** Cada línea de código, reporte de bug o idea ayuda a conectar a las personas con la ayuda que necesitan.
+
+[![](https://img.shields.io/badge/Repositorio-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username/rutadeayuda)
+[![](https://img.shields.io/badge/Documentación-Docs-24292E?style=for-the-badge&logo=gitbook&logoColor=white)](./docs/)
+
+---
+
+**Hecho con ❤️ para Colombia**
+
+🆘 RutaDeAyuda — Uniendo fuerzas cuando más se necesita
+
+</div>
